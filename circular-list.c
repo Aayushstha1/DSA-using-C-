@@ -156,7 +156,6 @@ int main() {
     ListNode* head = NULL;
 
     int choice, data, key;
-}
     do {
         printf("\n1. Insert\n");
         printf("2. Remove\n");
@@ -165,7 +164,6 @@ int main() {
         printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-    }
 
         switch (choice) {
             case 1:
@@ -178,7 +176,6 @@ int main() {
                 scanf("%d", &insertChoice);
                 printf("Enter data to insert: ");
                 scanf("%d", &data);
-        }
                 switch (insertChoice) {
                     case 1:
                         insertAtFront(&head, data);
@@ -234,8 +231,5 @@ int main() {
                             printf("Item not found.\n");
                         }
                         break;
-                }
                     default:
-                        printf("Invalid choice! \n");
-                        
-                        
+                        printf("Invalid choice!\n);

@@ -177,7 +177,6 @@ void insertBefore(Node **head, Node *nextNode, int id, const char *name) {
         printf("Memory allocation failed.\n");
         exit(1);
     }
-
     newNode->id = id;
     strcpy(newNode->name, name);
     newNode->next = nextNode;
