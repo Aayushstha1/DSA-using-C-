@@ -1,6 +1,13 @@
 #include<stdio.h>
 #include<conio.h>
-int sum(int n)
+int sum(int n)//iterative solution
+{
+    int s=0,i;
+    for(i=1;i<=n;i++)
+    s+=i;
+return s;
+}
+int sum(int n)//recursive solution
 {
     if(n<=0)
     return 0;
