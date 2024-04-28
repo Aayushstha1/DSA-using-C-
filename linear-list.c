@@ -164,6 +164,7 @@ else{
         }
 
 }
+}
    
 {
 	struct node*ptrthis;
