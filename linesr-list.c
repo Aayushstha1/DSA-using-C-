@@ -126,7 +126,7 @@ void main()
 	char choice;
 	header=NULL;//initialize empty list
 	do{
-		clrscr();
+		
 		printf("Select your choice:");
 		printf("\n1. Insert at front \n2.Insert at END \n3. Remove from END \n4 Remove from Front \n4. Display\n5. Exit");
 		fflush(stdin);
