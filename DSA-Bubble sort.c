@@ -6,7 +6,7 @@ int main() {
 
     for (int i = 0; i < n-1; i++) {
         for (int j = 0; j < n-i-1; j++) {
-            if (my_array[j] > my_array[j+1]) {
+            if (my_array[j] > my_array[j+1]) {6 
                 int temp = my_array[j];
                 my_array[j] = my_array[j+1];
                 my_array[j+1] = temp;

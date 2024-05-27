@@ -62,7 +62,7 @@ void bstInsert()
             return;
         }
 
-        else if(n<current->info)        //if new value is less than current node value then go to left subtree
+        else if(n<current->info) //if new value is less than current node value then go to left sub-tree
         {
             parent=current;
             current=current->left;
