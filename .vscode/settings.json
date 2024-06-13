@@ -57,6 +57,10 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "B-TREE.C": "cpp"
+    "B-TREE.C": "cpp",
+    "link-LIST.C": "cpp",
+    "CODEHELL (1).C": "cpp",
+    "INFIX2PO.C": "cpp",
+    "CODEHELL.C": "cpp"
   }
 }

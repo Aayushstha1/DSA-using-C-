@@ -61,4 +61,4 @@ void main()
         for(i=0;i<MAX;i++)
         printf("%d\t", arr[i]);
 getch();
-} 
+}
